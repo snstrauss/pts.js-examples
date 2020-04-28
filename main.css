@@ -1,7 +1,5 @@
 
 .container {
-    border: 2px solid red;
-
     height: 100%;
 
     display: flex;
@@ -9,7 +7,7 @@
 }
 
 .container nav {
-    border: 1px solid blue;
+    border: 1px solid grey;
     flex: 1;
 
     display: flex;
@@ -39,6 +37,5 @@
 }
 
 #canvasContainer {
-    border: 1px solid green;
     flex: 10;
 }
