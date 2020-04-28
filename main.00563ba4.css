@@ -1,2 +1,0 @@
-.container{border:2px solid red;height:100%;display:flex;flex-direction:row}.container nav{border:1px solid #00f;flex:1;display:flex;flex-direction:column}.container nav button{height:5vh;font-size:1.4em;letter-spacing:1px;background-color:#ddd;outline:none;border:none;border-bottom:1px solid grey;transition:all .15s ease-in-out}.container nav button:hover{background-color:rgba(106,90,205,.5);color:#fff}.container nav button.active{background-color:#6a5acd;color:#fff}#canvasContainer{border:1px solid green;flex:10}
-/*# sourceMappingURL=/main.00563ba4.css.map */
