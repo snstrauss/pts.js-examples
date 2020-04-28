@@ -1,0 +1,44 @@
+
+.container {
+    border: 2px solid red;
+
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.container nav {
+    border: 1px solid blue;
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container nav button {
+    height: 5vh;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    background-color: #DDD;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+
+    transition: all 0.15s ease-in-out;
+}
+
+.container nav button:hover {
+    background-color: rgba(106, 90, 205, 0.5);
+    color: white;
+}
+
+.container nav button.active {
+    background-color: slateblue;
+    color: white;
+}
+
+#canvasContainer {
+    border: 1px solid green;
+    flex: 10;
+}
