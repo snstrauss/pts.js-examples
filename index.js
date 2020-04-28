@@ -23,12 +23,7 @@ window.playExample = function playExample(exampleIdx){
 }
 
 function colorCorrectNavButton(selected){
-
-    debugger;
-
     Array.from(document.querySelectorAll('.nav-button')).forEach((button, i) => {
-
-        debugger;
         button.classList.toggle('active', i === selected);
     });
 }
