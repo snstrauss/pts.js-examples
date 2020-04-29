@@ -1,6 +1,8 @@
 import { CanvasSpace } from "./lib/pts";
 import examples from "./examples";
 
+const FIRST_EXAMPLE = 0;
+
 window.space = new CanvasSpace('#canvasContainer');
 window.form = space.getForm();
 
@@ -29,5 +31,5 @@ function colorCorrectNavButton(selected){
 }
 
 setTimeout(() => {
-    playExample(0);
+    playExample(FIRST_EXAMPLE);
 },100)
